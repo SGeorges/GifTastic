@@ -1,0 +1,111 @@
+* {
+    font-family: 'Permanent Marker', cursive;
+}
+
+html, body {
+    height: 100%;
+
+    background: black;
+}
+
+p {
+    margin: 0 0 5px 0;
+}
+
+#header-container {
+    padding: 12px 25px;
+
+    text-shadow: 2px 2px 4px #000000;
+    font-size:60px;
+
+    -webkit-animation: rainbow 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+      20%{color: red;}
+    30%{color: CadetBlue;}
+      40%{color: yellow;}
+    50%{color: coral;}
+      60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+      100%{color: orange;}
+  }
+
+#buttons-view {
+    padding: 10px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+#body-container {
+    min-height: 100%;
+}
+
+#buttons-view {
+    margin: 0px;
+    padding: 10px 5px; 
+}
+
+#gif-input {
+    height: 100%;
+}
+
+#gif-search-form,
+#gif-tab {
+    position: relative;
+
+    margin: 0 10px 10px 10px;
+    padding: 16px 24px;
+
+    border-radius : 10px;
+    background: lightgrey;
+}
+
+.gif-title {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.gif-rating {
+    font-size: 16px;
+}
+
+.gif {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#favorite-gif-button {
+    position: absolute;
+
+    margin: 5px;
+
+    right: 0px;
+    top: 0px;
+}
+
+.footer {
+    position: relative;
+
+    width: 100%;
+    height: 48px;
+
+    line-height: 60px;
+    background-color: lightgrey;
+}
+
+#more-gifs {
+    width: 240px;
+}
